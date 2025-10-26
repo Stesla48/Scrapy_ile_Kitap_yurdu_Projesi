@@ -39,9 +39,9 @@ Scrapy framework’ü kullanılarak kitap isimleri, yazar bilgileri ve yayınevl
     cd kitapyurdu
 
 2. **Gerekli bağımlılıkları yükle:**
-  ```bash
+    ```bash
     pip install scrapy
 
 3. **Scrapy ile kodu çalıştır:**
-  ```bash
+    ```bash
     scrapy crawl books
