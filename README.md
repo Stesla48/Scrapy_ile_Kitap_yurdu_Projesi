@@ -36,15 +36,12 @@ Scrapy framework’ü kullanılarak kitap isimleri, yazar bilgileri ve yayınevl
    ```bash
     git clone https://github.com/Stesla48/Scrapy_ile_Kitap_yurdu_Projesi.git
     cd Scrapy_ile_Kitap_yurdu_Projesi
-
-
-
-   NOT:cd kitapyurdu yapmayı unutmayın!
+    cd kitapyurdu
 
 2. **Gerekli bağımlılıkları yükle:**
-
+  ```bash
     pip install scrapy
 
 3. **Scrapy ile kodu çalıştır:**
-```bash
+  ```bash
     scrapy crawl books
